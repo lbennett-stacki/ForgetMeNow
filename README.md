@@ -8,10 +8,9 @@
 - Atlas - `curl -sSf https://atlasgo.sh | sh`
 - Graphviz - `brew install graphviz`
 - PlantUML - `brew install plantuml`
--
 
 ## Database
 
-- [Atlas HCL](./database/atlas.hcl)
+- [Atlas Schema HCL](./database/schema)
 - [ERD UML](./database/docs/erd.puml)
 - [ERD PNG](./database/docs/erd.png)
