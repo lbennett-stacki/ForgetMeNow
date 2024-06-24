@@ -6,7 +6,7 @@ SCHEMA_DIR := "schema"
 # Database
 #
 db-name:
-  @echo forget-me-now-{{ENV}}
+  @echo forgettable-{{ENV}}
 db-url:
   @turso db show $(just db-name) --url
 db-create:
