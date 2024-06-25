@@ -18,7 +18,7 @@ table "forwarding_inboxes" {
     ref_columns = [table.users.column.id]
   }
 
-  column "custom_address" {
+  column "address" {
     type = varchar(255)
   }
 }

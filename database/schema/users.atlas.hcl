@@ -14,7 +14,7 @@ table "users" {
     type = varchar(255)
   }
 
-  column "auto_complain" {
+  column "should_auto_complain" {
     type = boolean
   }
 }

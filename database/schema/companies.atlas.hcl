@@ -21,4 +21,14 @@ table "companies" {
   column "forgetfulness_score" {
     type = int
   }
+
+  column "average_response_time_minutes" {
+    type = int
+    null = true
+  }
+
+  column "average_forget_time_minutes" {
+    type = int
+    null = true
+  }
 }

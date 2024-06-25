@@ -38,12 +38,4 @@ table "emails" {
   column "received_date" {
     type = date
   }
-
-  column "erasure_request_date" {
-    type = date
-  }
-
-  column "is_erasure_requested" {
-    type = boolean
-  }
 }

@@ -38,11 +38,8 @@ table "erasure_requests" {
     type = date
   }
 
-  column "response_received" {
-    type = boolean
-  }
-
   column "response_date" {
     type = date
+    null = true
   }
 }
